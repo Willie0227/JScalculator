@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body class="cover">
+
+<div class="out">
+    <div class="enter_num">
+        <div class="first">
+            <input type="number" class="value1" id="v1">
+<!--            <button onclick="">Click</button>-->
+        </div>
+        <div class="second">
+            <input type="number" class="value2" id="v2">
+<!--            <button onclick="">Click</button>-->
+
+        </div>
+    </div>
+
+    <div class="operations">
+        <div class="add">
+            <button onclick="add()" class="operationsBt">Add</button>
+        </div>
+        <div class="subtract">
+            <button onclick="deduct()" class="operationsBt">Subtract</button>
+        </div>
+        <div class="division">
+            <button onclick="devide()" class="operationsBt">Division</button>
+        </div>
+        <div class="multiplication">
+            <button onclick="mul()" class="operationsBt">Multiplication</button>
+
+        </div>
+    </div>
+    <h1>Outcome: </h1>
+
+    <div class="square">
+
+        <div class="outcome"></div>
+
+    </div>
+
+</div>
+
+
+<script src="js.js"></script>
+
+</body>
+</html>

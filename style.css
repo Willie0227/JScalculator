@@ -1,0 +1,135 @@
+* {
+    background-color: cornflowerblue;
+    margin: 0;
+}
+
+.cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.out {
+    width: 400px;
+    height: 650px;
+    background-color: white;
+}
+
+.enter_num {
+    justify-content: center;
+    display: inline;
+
+}
+
+.first {
+    background-color: darkblue;
+    width: 350px;
+    height: 70px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second {
+    background-color: darkblue;
+    width: 350px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.value1 ,.value2{
+    background-color: dodgerblue;
+    width: 240px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+button {
+    background-color: white;
+}
+
+.operations {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.add {
+    background-color: midnightblue;
+    width: 180px;
+    height: 60px;
+    margin: 60px 15px 20px auto;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subtract {
+    background-color: midnightblue;
+    width: 180px;
+    height: 60px;
+    margin: 60px 15px 20px auto;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.division {
+    background-color: midnightblue;
+    width: 180px;
+    height: 60px;
+    margin: auto 15px 20px auto;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.multiplication {
+    background-color: midnightblue;
+    width: 180px;
+    height: 60px;
+    margin: auto 15px 20px auto;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outcome {
+    background-color: midnightblue;
+    width: 300px;
+    height: 100px;
+}
+
+h1 {
+    background-color: white;
+    text-align: center;
+}
+
+.square {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.outcome {
+    color: white;
+    font-size: 2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
